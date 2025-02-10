@@ -12,3 +12,6 @@ spring:
       initial-size: 1                               # 初始化提供的连接数
       max-total: 1                                  # 最大的连接数
       max-wait-millis: 3000                         # 等待连接获取的最大超时时间
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml    # mybatis配置文件所在路径
+  type-aliases-package: com.xxl.springboot.vo             # 定义所有操作类的别名所在包
